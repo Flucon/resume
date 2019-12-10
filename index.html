@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume</title>
+	<style>
+	body
+	{
+		background-image: url(img/bgimg.jpg);
+		font-family:Microsoft JhengHei;
+		text-decoration:bolder;
+		background-color:#deb887;
+	}
+	header
+	{
+		position: relative;
+		left:-190px;
+		padding-top: 35px;
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr;
+	}
+	.name
+	{
+		color:#a9a9a9;
+		font-size:35px;		
+	}
+	.slogn
+	{
+		color:#bdb76b;
+		font-style:oblique;
+		padding-left:50px;
+		font-size:27px;
+	}
+	.intro
+	{
+		color:#f0ffff;
+		font-size:23px;
+		font-weight:bold;
+	}
+	.desh
+	{
+		border: 1px solid;
+		width: 40%;
+		margin-left: 0;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	.skill
+	{
+		width: 60%;
+		margin: auto;
+		font-size:23px;
+		font-weight:bold;
+		color:#e6e8fa;
+	}
+	.me
+	{
+		padding-top: 30px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		width: 20%;
+		height: 20%;
+		transition: width 2s;
+  		-webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+  		transition-property: width, height;
+ 		transition-duration: 2s;
+	}
+	.Bar1
+	{
+		width: 60%;
+		height: 50px;
+		background-color:#2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+	}
+
+	.Bar2
+	{
+		width: 35%;
+		height: 50px;
+		background-color:#2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+	}
+
+	.Bar3
+	{
+		width: 60%;
+		height: 50px;
+		background-color:#2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+		}
+	.Bar4
+	{
+		width: 20%;
+		height: 50px;
+		background-color:#2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+	}
+
+	.Bar5
+	{	
+		width: 87%;
+		height: 50px;
+		background-color:#2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+	}
+	.Bar6
+	{	
+		width: 100%;
+		height: 50px;
+		background-color: #2f4f4f;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+	}
+	.Progress
+	{
+		width: 100%;
+		background-color: #c0c0c0;
+		box-shadow: inset 1 3px 3px rgba(0,0,0,.1);
+	}
+	.img1
+	{
+		padding-top: 50px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		position: relative;
+		text-align: center;
+		width: 55%;
+		height: 45%;
+		transition: width 2s;
+  		-webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+  		transition-property: width, height;
+ 		transition-duration: 2s;
+	}
+	img:hover
+	{
+		width:60%;
+		height:60%;
+	}
+	.img2
+	{
+		padding-top: 50px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		position: relative;
+		text-align: center;
+		width: 55%;
+		height: 45%;
+		transition: width 2s;
+  		-webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+  		transition-property: width, height;
+ 		transition-duration: 2s;
+	}
+	.img3
+	{
+		padding-top: 50px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		position: relative;
+		text-align: center;
+		width: 55%;
+		height: 45%;
+		transition: width 2s;
+  		-webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+  		transition-property: width, height;
+ 		transition-duration: 2s;
+	}
+	.span1
+	{
+		position: relative;
+		left:500px;
+		padding-top: 35px;
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr;
+		font-size:23px;
+		font-weight:bold;
+	}
+	.span2
+	{
+		position: relative;
+		left:445px;
+		padding-top: 35px;
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr;
+		font-size:23px;
+		font-weight:bold;
+	}
+	.span3
+	{
+		position: relative;
+		left:485px;
+		padding-top: 35px;
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr;
+		font-size:23px;
+		font-weight:bold;
+	}
+	footer
+	{
+		background-color:black;
+		position:absolute;
+		left:790px;
+		top:4000px;
+	}
+	</style>
+</head>
+<body>
+	<div>
+	<img class="me" src="img/me.jpg">
+	</div>
+	<header>
+       <div>
+        </div>
+       	<div>
+		<hr class="desh">
+		<p><h1 class="name">劉光嚴</h1></p>
+		<p><h2 class="slogn">「簡單事重複做」</h2></p>
+		<br><br>
+		<p class="intro">吉他教師兼普通大學生</p>
+		<p class="intro">中原大學資訊管理學系</p>
+		<br>
+		<hr class="desh">
+		</div>
+    </header><!-- /header -->
+
+    <!-- /page body -->
+		<div class="skill">
+			<h3>我的技能</h3>
+			<div>
+				<p class="skillname">Java</p>
+				<div class="Progress">
+				<div class="Bar1">60%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">HTML</p>
+				<div class="Progress">
+				<div class="Bar2">35%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">CSS</p>
+				<div class="Progress">
+				<div class="Bar3">60%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">JavaScript</p>
+				<div class="Progress">
+				<div class="Bar4">20%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">吉他</p>
+				<div class="Progress">
+				<div class="Bar5">87%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">錄音</p>
+				<div class="Progress">
+				<div class="Bar5">87%</div>
+				</div>
+			</div>
+			<div>
+				<p class="skillname">拉麵</p>
+				<div class="Progress">
+				<div class="Bar6">100%</div>
+			</div>
+			<br><br>
+		</div>
+		<div>
+			<div>
+				<h3>活動經歷</h3>
+			</div>
+			<div>
+			<div>
+				<img class="img1" src="img/club.jpg"/>
+				<span class="span1">熱音社大成</span>
+			</div>
+			<div>
+				<img class="img2" src="img/club2.jpg"/>
+				<span class="span2">在圓山酒吧打工的經驗</span>
+			</div>
+			<div>
+				<img class="img3" src="img/doc.jpg"/>
+				<span class="span3">台大杜鵑花節</span>
+			</div>
+			</div>
+		</div>
+		<div>
+			<h3>聯絡資訊<h3>
+			<p>Tel : 0983273052</p>
+			<p>地址:新北市新莊區龍安路278巷16號15樓</p>
+			<p>FB : 劉光嚴</p>
+			<p>IG : Flucon1.0</p>
+		</div>
+
+    <div>
+	<a style="color:#bdb76b" href="mailto:karta2013575@yahoo.com.tw?subject=Hello~">聯絡我</a>
+	</div>
+	<footer>
+		Copyright © 2019 Ian Liu
+	</footer>
+</body>
+</html>
